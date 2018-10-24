@@ -37,3 +37,44 @@
 
 7)Function of 'git push' in git?
   'GIT PUSH' updates remote refs along with associated objects.
+
+8)Why git better than subversion?
+  Git is an open source version control system; it will allow you to run 'versions'
+  of a project, which show thwe changes that were made to the code overtime
+  also it allows you keep the backtarack if necessary and undo those changes. 
+  mulitiple developers can checkout and upload changes and each change can then be
+  attributed to a specific developer.
+
+9)What is 'staging area' or 'index' in git?
+  Before completing the commits, it can be formatted and reviewed in an intermdiate 
+  area known as 'staging area' or 'index'.
+
+10)What is Git stash?
+  GIT stash takes the current state of working directory and index and puts in on the
+  stack for later and gives you back a clean working directory. So in case if you are 
+  in the middle of something and need to jump over to the other job, and at the same time you
+  dont want to lose your current edits then you can use GIT stash
+
+11)How do you know in git if a branch has been already merged in to master?
+   *Git branch merged lists the branches that have been merged into the current branch
+   *Git branch no merged lists the branches that have not been meerged.
+
+12)What is the function of Git Clone?
+   The git clone command creates a copy of central repository, 'cloning' is the 
+   most common way used by programmers
+
+13)Function of GIT 
+   The 'git config' command is a convinient way to set configuration options for your Git
+   installation. Behaviour of a repository, user info, preferences etc. can be defined through
+   this command
+
+14)what does commit object contain?
+   *A set of files, representing the state of a project ata given point of time.
+   *Reference to parent commit objects.
+   *An SHAI name, a 40 charecter string that uniquely identifies the commit objet.
+
+15) How to create repository in Git?
+   In git, to create  repository, create a directory for the project if it does not exists, and then
+   run command "git init". By running this coomand .git directory will be created in the
+   project directory, the directory does not need to be empty.
+
