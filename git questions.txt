@@ -1,0 +1,39 @@
+1)What is Git?
+  GIT is distributed version control system and source management (SCM) 
+  system with an emphasis to handle small and large projects with speed
+  and efficiency.
+
+2)What is a Repository in a Git?
+  A repository contains a directory named .git where git keeps 
+  all of its matadata for the repository. The content of .git are private to git.
+
+3)What is the command you can use to write a Commit message?
+  The command that is used to write a commit message is "git commit -a", The -a
+  on the command line instructs git to commit the new content of all tracked files
+  that have been modified. you can use "git add <file>" before git commit -a if new 
+  files need to be commited for the first time.
+
+4)Difference between GIT and SVN
+   i) Git is less preferred for handling ectremly large files or frequently changing
+    binary files while SVN can handle mulitiple projects stored in the same repository.
+  
+  ii) Git does not support 'commits'across multiple branches or tags. Subversion allows
+    the creation of folders to the at any location in the repository layout.
+  iii) Gits are unchangeable, while subversion allows committers to treat a tag as a 
+     branch and to create multiple revisions under a tag root.
+
+5)What are the advantages of using GIT
+  
+  a) Data redundancy and replication
+  b) High availablity
+  c) Only one .git directory per repository
+  d) Superior disk utilization and network performance.
+  e) Collabration friendly
+  f) Any sort of projects can use GIT
+
+6)What languages is used in GIT
+  Git is fast, and 'C' language makes this possible by reducing the overhead of
+  runtimes associated with higher languages.
+
+7)Function of 'git push' in git?
+  'GIT PUSH' updates remote refs along with associated objects.
