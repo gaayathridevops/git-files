@@ -78,3 +78,145 @@
    run command "git init". By running this coomand .git directory will be created in the
    project directory, the directory does not need to be empty.
 
+16)What is head and how many heads can be created in a repository?
+   A head is simply a refernce to commit object.In every repository there is a default head reffered 
+   as "MASTER". A repository can contain any number of heads.
+
+17)What is the purpose of branching in Git?
+   The purpose of branching in Git is that you can create your own branch and jump between those
+   branches. it will allow you to go your previous work keeping your recent work intact.
+
+18)common pattern branching in Git? 
+   The common way of creating branch in GIT is to maintain one as "main branch and create
+   another branch to implement new features.The pattern is particularly useful when there are mulitiple
+   developers working on a single project.
+
+19)How can you bring a new feature in the main branch?
+   To bring a new feature in the main branch, you use a command "git merge" or "git pull command".
+
+20)What is a conflict in git?
+   A conflict arises when the commit has to be merged has some change in  one place, and the current  
+   commit also has the changin same place. Git will not be able to predict which change 
+   should take precedence.
+
+21)How can conflict in Git resloved?
+   To resolved the conflict in Git edit the files to fix the conflicting changes and then add resolved
+   files by running "git add" after that to commit the repaired merge, run "git commit".Git remembers that you
+   are in the middle of a merger, so its sets the parents of the commit correctly.
+
+22)Command used to delete A branch?
+   Once your development branch is merged in to the main branch, you dont need development branch.
+   to delete a branch use, the command "git branch -d[head]".
+
+23)Another option for Merging Git?
+   "Rebasing" is an alternative to merging in Git.
+
+24)Syntax of "Rebasing" in git?
+   "git rebase [new commit]".
+
+25)Difference between Git remote and Git clone?
+   'git remote add' just creates an entry in your git config that specifies a name for a particular
+   URL. while 'git clone' creates a new git repository by copying and existing one located at the URL.
+
+26)Git version control?
+   *Can track history of collection of files and includes the functionality to revert the collection of files
+    to another version. each version captures a snapshot of the file system at a certain point
+    of time. A collection of files and their complete gistory stored in a repository.
+
+27) Graphical Git client for linux?
+
+   *git cola
+   *Git-g 
+   *Smart git
+   *giggle
+   *Git GUI
+   *qGit
+
+28)Subgit and why we use it?
+
+   Subgit is a tool for smooth,stress free SVN to Git migration. Subgit is a solution for a company
+   -wide migration from SVN git that is
+     *It is much better than Git-SVN
+     *No requirement to change the infrastructure that is already placed.
+     *Allows to use all git and sub version features.
+     * provides genuine stress-freee migration experience.
+
+29)Function of 'git diff' in git?
+   'git diff' shows the chnages between commits, commit and working tree etc.
+
+30)Git status used for?
+   As 'git status' shows you the differnce between the working directory and the index, it
+   is helpful in understanding a git more comprehensively.
+      
+31)difference between  the 'git diff' and 'git status'
+   'git diff' is similar to 'git status', but it shows the difference between various commits
+   and also between the working directory and index.
+
+32)Function of 'git checkout' in git:
+   A 'git checkout'command is used to update directories or  specific files in your
+   working tree with those from another branch without merging it in the whole branch.
+
+33)function of 'git rm'?
+   To remove the file from the  staging area and  also off your disk 'git rm' is used.
+
+34)Function of 'git stash apply'
+   When You want to continue working where you have left your work, 'git stash apply'
+   command is used to bring back the saved changes on to the working directory.
+
+35)Use of 'git log'
+   To find  specific commits in your projects history by author, date, content or history
+   'git log is used.
+
+36)What is 'git add' is used for?
+
+   'git add' adds file changes in your existing directory to index.
+
+37)Function of  'git reset'
+  
+  The function of 'git reset' is to reset your index as well the working directory to the 
+  state of your last commit.
+
+38)Git is-tree?
+
+  'git is-tree' represents a tree object including the mode and the name of each item 
+   and the SHA-1 value of the blob are the tree.
+
+39)How git instaweb used?
+   'git instaweb automatically directs a web browser and runs webserver with an interface 
+   in to your local repository.
+
+40)What is 'hook' consist of in git?
+   The directory consists of shell script which are activated  after the running the corresponding git commands.
+   For example git will try to exccute the post commit script after you run a commit.
+
+41)Commit messages?
+  Commit message is a future of git which apperars when you commit a change.Git provides
+  you a text editor where you can enter the modification made in commit.
+
+42)how to fix broken commit?
+
+  To fix any broken commit  you will use the command "git commit-amend". By running this 
+  command, you can fix the broken commit message in the editor.
+
+43)Why is it advisable to create an additional commit rather than amending an existing commit?
+   
+   *The ammend operation will destroy the state that was previously saved in a commit
+    if it is the just commit message being changed then thats not an issue. But if the
+    contents are being amended then chances of  eliminating something important remains more.
+
+   *Abusing "git commit-amend" can cause a small commit to grow and acquire unrelated changes.
+
+44)Bare repository in Git?
+   To coordinate with the distributed development and developers team, especially when you are working on a
+   project fro multiple computers 'bare repository is used. A bare repository comprises of
+   version history of your code.
+45)Few repository hosting servies?
+
+   *pickacode
+   *visual studio online
+
+   *Git hub
+   **git enterprise
+   *sourceforge.net
+   
+
